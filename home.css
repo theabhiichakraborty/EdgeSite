@@ -13,6 +13,26 @@ body{
     background-repeat: no-repeat;
     overflow: hidden;
 }
+section {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+section span
+{
+    position: relative;
+    display: block;
+    width: calc(6.25vw - 2px);
+    height: calc(6.25vw - 2px);
+    background: #181818;
+    z-index: 2;
+}
 nav {
     top: 0%;
     background-color: black;
@@ -28,7 +48,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-   
  }
 nav li{
     height: 50px;
@@ -36,7 +55,6 @@ nav li{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
   nav ul li a{
     height: 100%;
@@ -110,4 +128,23 @@ nav li{
     .sidebar{
         width: 45%;
     }
+}
+#LetsTalk
+{
+    background-color: rgba(0, 255, 255, 0.79);
+    width: 150px;
+    border-radius: 7px;
+}
+#LetsTalk a
+{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    font-size: 17px;
+    color: white;
+}
+#LetsTalk svg
+{
+   
+   left:40px;
 }
