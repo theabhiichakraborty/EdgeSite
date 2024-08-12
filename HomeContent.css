@@ -1,0 +1,22 @@
+.hero
+{
+    position: absolute;
+    width:fit-content;
+    height:fit-content;
+    display: block;
+    z-index: 999;
+    left: 15%;
+    top: 30%;
+    background-color: transparent;
+}
+.hero span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+    color: aliceblue;
+}
+.hero span p{
+    font-size: 120px;
+}
