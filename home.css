@@ -12,8 +12,11 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+    overflow-y: scroll;
 }
 section {
+    position: relative;
+    clear: both;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -131,15 +134,17 @@ nav li{
 }
 #LetsTalk
 {
-    background-color: rgba(0, 255, 255, 0.79);
-    width: 150px;
+    background-color: rgba(0, 255, 0, 0.95);
+    width: 120px;
+    padding: 4px 12px;
     border-radius: 7px;
 }
 #LetsTalk a
 {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     width: 100px;
+    margin-right: -4rem ;
     font-size: 17px;
     color: white;
 }
