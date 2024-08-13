@@ -14,3 +14,4 @@ for(let i=1;i<365;i++)
     let x=document.createElement("span");
     grid.appendChild(x);
 }
+let

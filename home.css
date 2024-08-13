@@ -14,7 +14,6 @@ body{
     overflow: hidden;
 }
 section {
-    position: absolute;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -30,7 +29,7 @@ section span
     display: block;
     width: calc(6.25vw - 2px);
     height: calc(6.25vw - 2px);
-    background: #181818;
+    background: #0f0f0f;
     z-index: -999;
 }
 nav {
@@ -62,7 +61,7 @@ nav li{
     align-items: center;
     text-decoration: none;
     color: aliceblue;
-    font-size: 19px;
+    font-size: 23px;
     font-weight: 600;
     padding: 9px;
     /* border-radius: 6px; */
